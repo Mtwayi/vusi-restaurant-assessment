@@ -1,0 +1,172 @@
+/* Header */
+.Header-Container {
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 15px;
+  	.Header-Logo, .Header-Links {
+		display: flex;
+		align-items: center;
+	}
+	.Header-Logo {
+		flex: 0 1 70%;
+		justify-content: flex-start;
+		.Logo {
+			width: 16px;
+			height: 14px;
+			margin-right: 12px;
+		}
+		.Order-Header {
+			color: #1E2021;
+		    font-family: Muli;
+		    font-size: 18px;
+		    font-weight: bold;
+		}
+	}
+
+	.Header-Links {
+		flex: 0 1 30%;
+		justify-content: flex-end;
+		a {
+			color: #EA433D;
+			font-family: Muli;
+			font-size: 12px;
+			font-weight: 900;
+			text-decoration: none;
+			text-transform: uppercase;
+			&:hover {
+				color: #EA433D;
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
+/* Time Rimaining */
+.Remaining-Container {
+	background-color: #FFFFFF;
+	border-radius: 0px 0px 10px 10px;
+	.Time {
+	    align-items: center;
+	    justify-content: center;
+	    padding: 15px 15px 5px 15px;
+	    .Time-Remaining {
+			margin: 0 0 5px 0;
+			display: flex;	
+			justify-content: center;
+		}
+		.Minutes-Remaining {
+			color: #8E8F90;
+			font-family: Muli;
+			font-weight: bold;
+			font-size: 12px;
+			text-transform: uppercase;
+			display: flex;	
+			justify-content: center;
+		}
+		.Progress {
+			width: 100%;
+			margin-top: 10px;
+			height: 18px;
+		}
+	} 
+}
+
+/* Collect Order*/
+.Order-Container {
+	margin: 25px 15px;
+    padding: 15px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+
+    .Title {
+		color: #000000;
+		font-family: Muli;
+		font-size: 16px;
+		text-align: left;
+	}
+	.SubTitle {
+		color: #8E8F90;
+		font-family: Muli;
+		font-size: 13px;
+		line-height: 16px;
+	}
+
+    .Order-Number {
+    	display: flex;
+    	justify-content: left;
+	    .BoxChecked {
+	    	background-color: #00C853;
+			border-radius: 3px;
+			width: 24px;
+			height: 24px;
+			margin-right: 15px;
+			position: relative;
+			img {
+				width: 14px;
+    			padding: 6px 0 0 6px;
+			}
+	    }
+	    .Order-Title {
+	    	margin: 0px;
+	    }
+	}
+	.Order-Instructions {
+		padding: 15px 0;
+		margin-bottom: 10px;
+		.SubTitle {
+			margin-bottom: 5px;
+		}
+	}
+	.Menus {
+		li {
+			border-top: 2px solid #E8E8E8;
+    		padding: 15px 0;
+    		color: #000000;
+		    font-family: Muli;
+		    font-size: 16px;
+		    text-align: left;
+    		span {
+    			color: #616263;
+			    font-family: Muli;
+			    font-size: 13px;
+			    line-height: 16px;
+    		}
+		}
+	}
+}
+
+/* Store Details */
+.Store-Container {
+	background-color: #FFFFFF;
+	padding: 25px 15px;
+	h1 {
+		margin: 0 0 5px 0;
+	}
+	.Store-Address {
+		color: #8E8F90;
+		font-family: Muli;
+		font-size: 16px;
+		line-height: 20.08px;
+		text-align: left;
+	}
+	.Store-CalltoAction {
+		display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    padding: 15px 0 0 0;
+		.Direction, .Call {
+			flex: 0 1 50%;
+		}
+		.Call {
+			padding-left: 15px;
+			.btn img {
+				height: 15px;
+			}
+		}
+	}
+}
+.Store-Ready {
+	padding: 25px 15px;
+}

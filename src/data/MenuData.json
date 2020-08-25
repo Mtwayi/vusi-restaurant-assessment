@@ -1,0 +1,42 @@
+{
+	"Order": [
+		{
+			"OrderID": "093",
+			"Menus": [
+				{
+					"ID": 1,
+					"Meal": "BigMac Meal",
+					"Sides": "Large Fanta, Super Size Fries"
+				},
+				{
+					"ID": 2,
+					"Meal": "McChicken Meal",
+					"Sides": "Small Coke, Medium Fries"
+				},
+				{
+					"ID": 3,
+					"Meal": "Oreo McFlurry",
+					"Sides": ""
+				},
+				{
+					"ID": 4,
+					"Meal": "McChicken Meal",
+					"Sides": "Small Coke, Medium Fries"
+				},
+				{
+					"ID": 5,
+					"Meal": "Oreo McFlurry",
+					"Sides": ""
+				},
+				{
+					"ID": 6,
+					"Meal": "McChicken Meal",
+					"Sides": "Small Coke, Medium Fries"
+				}
+			],
+			"StoreName": "Vusi Restaurant",
+			"StoreLocation": "Paarl",
+			"StoreAddress": "51 Main Rd, Paarl, Cape Town, 7655"
+		}    
+	]   
+}

@@ -1,0 +1,122 @@
+$brand-primary:           #616263;
+$brand-white:             #FFFFFF;
+$brand-black:             #000000;
+$brand-black-light:       #111111;
+$brand-black-lighter:     #1E2021;
+$brand-grey:              #EEEEEE;
+$brand-grey-light:        #E8E8E8;
+$brand-grey-lighter:      #F4F4F4;
+$brand-grey-dark:         #8E8F90;
+$brand-grey-darker:       #616263;
+$brand-red:               #EA433D;
+$brand-green:             #00C853;
+$brand-green-darker:      #12773c;
+$brand-blue:              #2196F3;
+/*#494949
+#979797
+#d8d8d8
+#424242
+#383838
+#6a6a6a 
+#6d6d6e
+#565656*/
+
+#00c853
+
+* {
+  box-sizing: border-box;
+}
+body {
+    background-color: $brand-grey;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+h1 {
+    color: $brand-black;
+    font-family: Muli;
+    font-size: 18px;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    &:hover, &:focus {
+        text-decoration: underline;
+    }
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    font-weight: 900;
+    text-align: center;
+    padding: 14px 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0);
+    font-family: Muli;
+    font-size: 14px;
+    line-height: 17.57px;
+    text-transform: uppercase;
+    cursor: pointer;
+    &:hover, &:focus {
+        text-decoration: none;
+    }
+    img {
+        vertical-align: baseline;
+        width: 12px;
+        height: 12px;
+        margin-right: 5px;
+    }
+}
+.transparent-red {
+    border: 1px solid #EA433D;
+    color: #EA433D;
+    background: transparent;
+    &:hover, &:focus {
+        border: 1px solid #00c853;
+        color: #FFFFFF;
+        background: #00c853;
+    }
+}
+.fill-red {
+    border: 1px solid #EA433D;
+    color: #FFFFFF;
+    background: #EA433D;
+    &:hover, &:focus {
+        border: 1px solid #EA433D;
+        color: #EA433D;
+        background: #FFFFFF;
+    }
+}
+.rounded {
+    border-radius: 25px;
+}
+
+.Progress-border {
+    background-color: #F4F4F4;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.07);
+    width: 100%;
+    height: 8px;
+    margin: 15px 0 5px 0;
+    .Progress-current {
+        background-color: #EA433D;
+        width: 98%;
+        height: 8px;
+        border-radius: 16px;
+    }
+}
+
+div.disabled
+{
+    pointer-events: none;
+    opacity: 0.5;
+}
